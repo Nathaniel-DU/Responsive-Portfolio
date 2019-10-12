@@ -1,0 +1,275 @@
+.header {
+    background-color: gray;
+    height: 60px;
+
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100px;
+
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 60px;
+
+}
+
+body{
+  position: relative;
+  top: 0px;
+}
+
+.name {
+  background-color:burlywood;
+  color: white;
+  padding: 25px;
+  width: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  margin-top: 200px;
+  margin-left: -485px;
+ 
+
+  
+ }
+
+ .number{
+     font-weight: bolder;
+     font-size: 20px;
+ }
+
+ .email{
+     font-weight: bolder;
+     font-size: 20px;
+ }
+
+ #about {
+     position: absolute;
+     left: 50%;
+     bottom: -10px;
+     margin-top: 200px;
+     margin-left: 250px;
+
+ }
+ #portfolio{
+    position: absolute;
+     left: 50%;
+     bottom: -10px;
+     margin-top: 200px;
+     margin-left: 325px;
+ }
+
+ #contact{
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-top: 200px;
+    margin-left: 400px;
+ }
+
+
+
+#aboutme {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  height: 100px;
+  width: 960px;
+  font-size: 24px;
+  top: 25px;
+  left: 25px;
+  
+  
+}
+.container{
+position: relative;
+  background-color: #dddddd;
+  height: 600px;
+  margin: 0 50px 0 50px;
+  top: 25px;
+ 
+}
+
+.portfolio-container{
+position: relative;
+  background-color: #dddddd;
+  height: 600px;
+  margin: 0 50px 0 50px;
+  top: 50px;
+ 
+}
+
+.contact-container{
+position: relative;
+  background-color: #dddddd;
+  height: 600px;
+  margin: 0 50px 0 50px;
+  top: 25px;
+ 
+}
+
+.mypic {
+  position: relative;
+  top: 35px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding:0px 25px 50px 0px;
+  left: 25px;
+}
+
+#paragraph {
+position: relative;
+  top: 35px;
+  width: 800px;
+  left: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  
+}
+
+#insert {
+  position: relative;
+  background-color: #ffffff;
+  Width: 960px;
+  height: 450px;
+  left: 50%;
+  margin-left: -480px;
+  top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+
+}
+
+#portfolio-insert {
+position: relative;
+background-color: #ffffff;
+Width: 960px;
+height: 500px;
+left: 50%;
+margin-left: -480px;
+top: -530px;
+
+
+}
+
+#contact-insert {
+position: relative;
+background-color: #ffffff;
+Width: 960px;
+height: 500px;
+left: 50%;
+margin-left: -480px;
+top: 30px;
+
+
+}
+  
+  #footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-top: 8px solid brown;
+    position: relative;
+    top: 150px;
+
+}  
+
+
+.meandjack {
+float: left;
+width: 200px;
+height: 200px;
+padding:0px 25px 50px 0px;
+left: 25px;
+}
+
+.jackgoat {
+float: left;
+width: 200px;
+height: 200px;
+padding:0px 25px 50px 0px;
+image-orientation: from-image;
+}
+
+.nathaniel {
+float: left;
+width: 200px;
+height: 200px;
+padding:0px 25px 50px 0px;
+}
+
+@media only screen and (max-width: 960px) {
+  body{
+  background-color: rgb(240, 233, 231);
+  
+
+  }
+
+  .container{
+    background-color: red;
+  }
+
+  .name{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background-color: rgb(233, 226, 223);
+    width: 100%;
+  
+    }
+  
+    .container{
+      background-color: red;
+    }
+  
+    .name{
+      background-color: black;
+      width: 100%;
+      padding: 20px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 640px) {
+  body{
+    background-color: rgb(207, 201, 199);
+    width: 100%;
+  
+    }
+
+    .container{
+      background-color: red;
+    }
+  
+    .name{
+      background-color: black;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    
+
+}
