@@ -219,7 +219,7 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   body{
        width: 100%;
-       background-color: red;
+       background-color: rgb(59, 56, 56);
    }
    .main-section{    
        width: 60%;
@@ -227,16 +227,28 @@ input[type=submit] {
        margin: 20px 5% 150px;
    }
 
+   nav{
+    clear: both;
+    width: 100%;
+    margin: 0;
+   }
+
 
 @media screen and (max-width: 768px) {
   body{
       width: 100%;
-      background-color: blue;
+      background-color: rgb(64, 64, 66);
   }
   .main-section{    
       width: 80%;
       margin: 20px 5% 150px;
   }
+
+  nav{
+    clear: both;
+    width: 100%;
+    margin: 0;
+   }
 
   
 
@@ -244,12 +256,18 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   body{
       width: 100%;
-      background-color: orange
+      background-color: rgb(78, 77, 73)
   }
   .main-section{    
       width: 80%;
       margin: 20px auto 150px 5%;
   }
+
+  nav{
+    clear: both;
+    width: 100%;
+    margin: 0;
+   }
 
 }
 
